@@ -9,17 +9,28 @@ public class Main {
     public static void main(String[] args) {
 
 
-        BinaryTree binaryTree = new BinaryTree();
-        binaryTree.add(6);
-        binaryTree.add(23);
-        binaryTree.add(63);
-        binaryTree.add(1);
-        binaryTree.add(4);
-        binaryTree.add(9);
-        binaryTree.add(7);
-        binaryTree.add(8);
+        MyString myString = new MyString(0);
+        myString.strCat("salam");
+        System.out.println(myString.getString());
+        myString.reverse();
+        System.out.println(myString.getString());
+        myString.strIns(0, "rasam");
+        System.out.println(myString.getString());
 
-        binaryTree.lnr();
+
+        System.out.println(myString.subString(0,2));
+        System.out.println(myString.subStringBase(0,2));
+        //        BinaryTree binaryTree = new BinaryTree();
+//        binaryTree.add(6);
+//        binaryTree.add(23);
+//        binaryTree.add(63);
+//        binaryTree.add(1);
+//        binaryTree.add(4);
+//        binaryTree.add(9);
+//        binaryTree.add(7);
+//        binaryTree.add(8);
+//
+//        binaryTree.lnr();
 
     }
 
@@ -149,8 +160,8 @@ public class Main {
             quickSort(lowerIndex, current - 1);
     }
 
-    private static void mergeSort(){
-        
+    private static void mergeSort() {
+
     }
 
 
