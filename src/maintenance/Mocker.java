@@ -5,6 +5,7 @@ import java.util.Random;
 /**
  * Created by R.Arabzadeh Taktell on 4/9/2018.
  */
+
 public class Mocker {
     private  int size;
     private Random random;

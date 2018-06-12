@@ -32,5 +32,5 @@ public abstract class AsyncTask extends Thread {
 
     protected abstract void onPreExcute();
     protected abstract void doInBackGround();
-    protected abstract void onPostExcute(Long timeElapsed);
+    protected abstract void onPostExcute(Long timeElapsedMillisecond);
 }

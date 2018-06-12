@@ -9,11 +9,13 @@ import maintenance.SortSpecification;
  */
 public class BubbleSortImple extends AsyncTask implements SortSpecification {
 
-    Mocker mocker;
+
+    private int [] arrays;
 
 
     public BubbleSortImple(Mocker mocker) {
-        this.mocker = mocker;
+
+        mocker.getMockArray();
     }
 
     @Override
@@ -23,7 +25,7 @@ public class BubbleSortImple extends AsyncTask implements SortSpecification {
 
     @Override
     protected void doInBackGround() {
-        sort(mocker.getMockArray());
+        sort(arrays);
     }
 
     @Override

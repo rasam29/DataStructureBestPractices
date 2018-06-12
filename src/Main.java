@@ -1,25 +1,34 @@
-import java.util.LinkedList;
+import linkList.DoubleLinkList;
+import linkList.HeaderLinkList;
+import linkList.LinkList;
+import linkList.List;
+import linkList.nodes.Node;
+
 
 /**
  * Created by R.Arabzadeh Taktell on 4/7/2018.
  */
 public class Main {
-    private static int array[] = {10, 1020, 30, 21, 14, 8};
+    private static int array[] = {0, 1020, 10, 30, 21, 14, 8};
 
     public static void main(String[] args) {
+        System.out.println(new power().power(3,3));
+//        List list = new LinkList();
+//
+//        list.add(1);
+//        list.add(8);
+//        list.add(3);
+//        list.add(6);
+//        list.add(11);
+//        list.add(5);
+//
+//
+//        list.reverese();
+//
+//        list.print();
 
 
-        BinaryTree binaryTree = new BinaryTree();
-        binaryTree.add(6);
-        binaryTree.add(23);
-        binaryTree.add(63);
-        binaryTree.add(1);
-        binaryTree.add(4);
-        binaryTree.add(9);
-        binaryTree.add(7);
-        binaryTree.add(8);
 
-        binaryTree.lnr();
 
     }
 
@@ -64,15 +73,14 @@ public class Main {
 
     public static void insertationSort() {
         int size = array.length;
-
         for (int i = 1; i < size; i++) {
             int temp = array[i];
-            int j = i;
-            while (j >= 0 && array[j] < array[j - 1]) {
-                array[j] = array[j - 1];
+            int j = i - 1;
+            while (j >= 0 && array[j] > temp) {
+                array[j + 1] = array[j];
                 j--;
             }
-            array[j] = temp;
+            array[j + 1] = temp;
         }
 
     }
@@ -149,8 +157,43 @@ public class Main {
             quickSort(lowerIndex, current - 1);
     }
 
-    private static void mergeSort(){
-        
+    private static int binarySearchRecursive(int item, int left, int right) {
+        int mid = (right - left) / 2;
+        if (item == array[mid]) {
+            return mid;
+        } else if (item > array[mid]) {
+            binarySearchRecursive(item, mid + 1, right);
+        } else if (item < array[mid]) {
+            binarySearchRecursive(item, left, mid - 1);
+        }
+        return -1;
+    }
+
+    private static int binarySearch(int item) {
+        int left = 0, right = array.length;
+        while (left <= right) {
+            int mid = (right - left) / 2;
+            if (array[mid] == item) {
+                return mid;
+            } else if (item > array[mid]) {
+                left = mid + 1;
+            } else if (item < array[mid]) {
+                right = mid - 1;
+            } else throw new IllegalArgumentException("Not a Illegl Numeric");
+        }
+        return -1;
+    }
+
+    private static int linearSearch(int item, boolean isSorted) {
+
+        int i;
+        if (isSorted) {
+            for (i = 0; i < array.length && item > array[i]; i++) ;
+        } else for (i = 0;i<array.length && array[i] != item;i++);
+
+
+        return (array[i]== item)?i:-1;
+
     }
 
 
