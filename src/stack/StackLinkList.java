@@ -12,7 +12,7 @@ public class StackLinkList<T> implements Stack<T> {
 
     @Override
     public T geTopItem() {
-        if (topOfStack == null){
+        if (topOfStack == null) {
             return null;
         }
         return topOfStack.info;
@@ -44,7 +44,7 @@ public class StackLinkList<T> implements Stack<T> {
     @Override
     public void printStack() {
         Node t = topOfStack;
-        while (t != null){
+        while (t != null) {
             System.out.println(t.info);
             t = t.next;
         }

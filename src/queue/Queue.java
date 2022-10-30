@@ -5,7 +5,9 @@ package queue;
  */
 public interface Queue<T> {
     boolean add(T item);
+
     void delete();
+
     void printQueue();
 
 

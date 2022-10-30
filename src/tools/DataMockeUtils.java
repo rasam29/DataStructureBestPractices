@@ -1,4 +1,4 @@
-package maintenance;
+package tools;
 
 import java.util.Random;
 
@@ -6,17 +6,17 @@ import java.util.Random;
  * Created by R.Arabzadeh on 4/9/2018.
  */
 
-public class Mocker {
+public class DataMockeUtils {
     private  int size;
     private Random random;
     private int limit;
 
-    public Mocker(int size,int limit) {
+    public DataMockeUtils(int size, int limit) {
         this.size = size;
         this.limit = limit;
     }
 
-    public Mocker(int size) {
+    public DataMockeUtils(int size) {
         this.size = size;
     }
 

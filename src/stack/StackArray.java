@@ -7,16 +7,17 @@ import java.lang.reflect.Array;
  */
 public class StackArray<T> implements Stack<T> {
 
-    private T[] arrays;
+    private final T[] arrays;
     private int topOfStack;
-    public StackArray(int count,Class<T> tClass) {
+
+    public StackArray(int count, Class<T> tClass) {
         arrays = (T[]) Array.newInstance(tClass, count);
         topOfStack = -1;
     }
 
     @Override
     public T geTopItem() {
-        if (topOfStack == -1){
+        if (topOfStack == -1) {
             return null;
         }
 
@@ -25,7 +26,7 @@ public class StackArray<T> implements Stack<T> {
 
     @Override
     public T pop() {
-        if (topOfStack == -1){
+        if (topOfStack == -1) {
             return null;
         }
 
@@ -34,7 +35,7 @@ public class StackArray<T> implements Stack<T> {
 
     @Override
     public boolean push(T data) {
-        if (topOfStack>arrays.length){
+        if (topOfStack > arrays.length) {
             //stack overflow
             return false;
         }

@@ -1,7 +1,6 @@
 package sortAlgorithms;
 
-public class SelectionSort implements Sort{
-
+public class SelectionSort implements Sort {
 
 
     @Override
@@ -28,8 +27,6 @@ public class SelectionSort implements Sort{
         }
         return array;
     }
-
-
 
 
 }

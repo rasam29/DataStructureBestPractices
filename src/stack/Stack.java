@@ -5,7 +5,10 @@ package stack;
  */
 public interface Stack<T> {
     T geTopItem();
+
     T pop();
+
     boolean push(T data);
+
     void printStack();
 }

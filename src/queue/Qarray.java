@@ -6,7 +6,6 @@ package queue;
 public class Qarray {
 
 
-
     private int[] array;
 
 

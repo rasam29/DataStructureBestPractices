@@ -2,42 +2,33 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="faf3d855-e40f-4d64-a777-9e223df8e5e2" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/searchTechnics/Search.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sortAlgorithms/BubbleSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sortAlgorithms/InsertionSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sortAlgorithms/QuickSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sortAlgorithms/SelectionSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sortAlgorithms/Sort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/junit_jupiter_engine.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/searchTechnics/SearchImplementation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SortingAlgorithDS/Graph/GraphLinkList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SortingAlgorithDS/Graph/GraphLinkList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SortingAlgorithDS/GraphTest$Edge.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SortingAlgorithDS/GraphTest$Vertex.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SortingAlgorithDS/GraphTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SortingAlgorithDS.iml" beforeDir="false" afterPath="$PROJECT_DIR$/SortingAlgorithDS.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/SortingAlgorithDS/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SortingAlgorithDS/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SortingAlgorithDS/MyString.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SortingAlgorithDS/MyString.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SortingAlgorithDS/Qarray.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SortingAlgorithDS/QlinkList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SortingAlgorithDS/Student.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SortingAlgorithDS/bst/BinaryTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SortingAlgorithDS/bst/BinaryTree.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SortingAlgorithDS/bubbleSort/BubbleSortImple.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SortingAlgorithDS/insertationSort/InsertationSortImple.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SortingAlgorithDS/maintenance/AsyncTask.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SortingAlgorithDS/maintenance/SortSpecification.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SortingAlgorithDS/queue/QueueLinkList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SortingAlgorithDS/queue/QueueLinkList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SortingAlgorithDS/selectionSort/SelectionSortImple.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SortingAlgorithDS/stack/StackLinkList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SortingAlgorithDS/stack/StackLinkList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GraphTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SortingAlgorithDS/bst/BinaryTree$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SortingAlgorithDS/bst/BinaryTree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SortingAlgorithDS/maintenance/Mocker.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SortingAlgorithDS/sortAlgorithms/BubbleSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SortingAlgorithDS/sortAlgorithms/BubbleSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SortingAlgorithDS/sortAlgorithms/Sort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SortingAlgorithDS/sortAlgorithms/Sort.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Student.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bst/BinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BinaryTree/BinaryTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bubbleSort/BubbleSortImple.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/insertationSort/InsertationSortImple.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/maintenance/AsyncTask.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/maintenance/Mocker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/maintenance/Mocker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/maintenance/SortSpecification.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/selectionSort/SelectionSortImple.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MyString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/RankSort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/maintenance/Mocker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tools/DataMockeUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/power.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/queue/Qarray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/queue/Qarray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/queue/Queue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/queue/Queue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/queue/QueueArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/queue/QueueArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/queue/QueueLinkList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/queue/QueueLinkList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/searchTechnics/Search.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/searchTechnics/Search.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sortAlgorithms/BubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sortAlgorithms/BubbleSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sortAlgorithms/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sortAlgorithms/QuickSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sortAlgorithms/SelectionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sortAlgorithms/SelectionSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stack/Stack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/stack/Stack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stack/StackArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/stack/StackArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stack/StackLinkList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/stack/StackLinkList.java" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -45,9 +36,6 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/DSBestPractices_master$Main.coverage" NAME="Main Coverage Results" MODIFIED="1528719922513" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-  </component>
-  <component name="FavoritesManager">
-    <favorites_list name="SortingAlgorithDS" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -61,37 +49,45 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="1fqeWswQRDq5X6i9BxIeU5xtGgW" />
-  <component name="PropertiesComponent">
-    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
-    <property name="create.test.in.the.same.root" value="true" />
-    <property name="full.screen.before.presentation.mode" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
+  <component name="ProjectId" id="1fqeWswQRDq5X6i9BxIeU5xtGgW" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "create.test.in.the.same.root": "true",
+    "last_opened_file_path": "C:/Users/USER/Desktop/DataStructure and algorith java/DataStructureBestPractices",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2"
+  }
+}]]></component>
   <component name="RecentsManager">
-    <key name="CreateTestDialog.RecentsKey">
-      <recent name="" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="bubbleSort" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="bubbleSort" />
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="sortAlgorithms" />
+      <recent name="" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.BubbleSortSearchImplementationImplementation">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -112,6 +108,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="BubbleSortSearchImplementationImplementation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SortingAlgorithDS" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sortAlgorithms.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="sortAlgorithms" />
+      <option name="MAIN_CLASS_NAME" value="sortAlgorithms.BubbleSortSearchImplementationImplementation" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -119,36 +131,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
       <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <module name="" />
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -173,10 +157,12 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.BubbleSortSearchImplementationImplementation" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -214,41 +200,6 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/queue/QueueLinkList.java</url>
-          <line>37</line>
-          <option name="timeStamp" value="29" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/queue/QueueLinkList.java</url>
-          <line>38</line>
-          <option name="timeStamp" value="30" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/queue/QueueLinkList.java</url>
-          <line>39</line>
-          <option name="timeStamp" value="31" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/queue/QueueLinkList.java</url>
-          <line>28</line>
-          <option name="timeStamp" value="32" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/queue/QueueLinkList.java</url>
-          <line>29</line>
-          <option name="timeStamp" value="33" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/queue/QueueLinkList.java</url>
-          <line>30</line>
-          <option name="timeStamp" value="34" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/queue/QueueLinkList.java</url>
-          <line>31</line>
-          <option name="timeStamp" value="35" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/queue/QueueArray.java</url>
           <line>18</line>
           <option name="timeStamp" value="36" />
@@ -285,157 +236,157 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/MyString.java</url>
-          <line>146</line>
+          <line>137</line>
           <option name="timeStamp" value="87" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/MyString.java</url>
-          <line>147</line>
+          <line>138</line>
           <option name="timeStamp" value="89" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/MyString.java</url>
-          <line>149</line>
+          <line>140</line>
           <option name="timeStamp" value="90" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/MyString.java</url>
-          <line>151</line>
+          <line>141</line>
           <option name="timeStamp" value="91" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/MyString.java</url>
-          <line>154</line>
+          <line>144</line>
           <option name="timeStamp" value="92" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/MyString.java</url>
-          <line>155</line>
+          <line>145</line>
           <option name="timeStamp" value="93" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/MyString.java</url>
-          <line>157</line>
+          <line>147</line>
           <option name="timeStamp" value="94" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/MyString.java</url>
-          <line>159</line>
+          <line>150</line>
           <option name="timeStamp" value="95" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/MyString.java</url>
-          <line>161</line>
+          <line>152</line>
           <option name="timeStamp" value="96" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/MyString.java</url>
-          <line>164</line>
+          <line>153</line>
           <option name="timeStamp" value="97" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/MyString.java</url>
-          <line>165</line>
+          <line>154</line>
           <option name="timeStamp" value="98" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/MyString.java</url>
-          <line>166</line>
+          <line>155</line>
           <option name="timeStamp" value="99" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/MyString.java</url>
-          <line>167</line>
+          <line>156</line>
           <option name="timeStamp" value="100" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/MyString.java</url>
-          <line>111</line>
+          <line>104</line>
           <option name="timeStamp" value="101" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/MyString.java</url>
-          <line>112</line>
+          <line>105</line>
           <option name="timeStamp" value="102" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/MyString.java</url>
-          <line>113</line>
+          <line>106</line>
           <option name="timeStamp" value="103" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/MyString.java</url>
-          <line>114</line>
+          <line>107</line>
           <option name="timeStamp" value="104" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/MyString.java</url>
-          <line>116</line>
+          <line>109</line>
           <option name="timeStamp" value="105" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/MyString.java</url>
-          <line>115</line>
+          <line>108</line>
           <option name="timeStamp" value="106" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/MyString.java</url>
-          <line>117</line>
+          <line>110</line>
           <option name="timeStamp" value="108" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/MyString.java</url>
-          <line>123</line>
+          <line>115</line>
           <option name="timeStamp" value="109" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/MyString.java</url>
-          <line>124</line>
+          <line>116</line>
           <option name="timeStamp" value="110" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/MyString.java</url>
-          <line>125</line>
+          <line>117</line>
           <option name="timeStamp" value="111" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/MyString.java</url>
-          <line>129</line>
+          <line>121</line>
           <option name="timeStamp" value="112" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/MyString.java</url>
-          <line>131</line>
+          <line>123</line>
           <option name="timeStamp" value="113" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/MyString.java</url>
-          <line>130</line>
+          <line>122</line>
           <option name="timeStamp" value="114" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/MyString.java</url>
-          <line>132</line>
+          <line>124</line>
           <option name="timeStamp" value="115" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/MyString.java</url>
-          <line>134</line>
+          <line>126</line>
           <option name="timeStamp" value="116" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/MyString.java</url>
-          <line>135</line>
+          <line>127</line>
           <option name="timeStamp" value="117" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/MyString.java</url>
-          <line>136</line>
+          <line>128</line>
           <option name="timeStamp" value="118" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/MyString.java</url>
-          <line>138</line>
+          <line>130</line>
           <option name="timeStamp" value="119" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">

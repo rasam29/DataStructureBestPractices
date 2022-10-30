@@ -1,16 +1,17 @@
 package sortAlgorithms;
 
-public class QuickSort implements Sort{
+public class QuickSort implements Sort {
 
     int[] array;
+
     @Override
     public int[] sort(int[] array) {
         this.array = array;
-        quickSort(0,array.length-1);
+        quickSort(0, array.length - 1);
         return this.array;
     }
 
-    private  void quickSort(int lowerIndex, int higherIndex) {
+    private void quickSort(int lowerIndex, int higherIndex) {
 
         int left = lowerIndex;
         int right = higherIndex;
